@@ -112,8 +112,7 @@ NS_ASSUME_NONNULL_BEGIN
       && OIDIsEqualIncludingNil(standardizedURL.user, standardizedRedirectURL.user)
       && OIDIsEqualIncludingNil(standardizedURL.password, standardizedRedirectURL.password)
       && OIDIsEqualIncludingNil(standardizedURL.host, standardizedRedirectURL.host)
-      && OIDIsEqualIncludingNil(standardizedURL.port, standardizedRedirectURL.port)
-      && OIDIsEqualIncludingNil(standardizedURL.path, standardizedRedirectURL.path);
+      && OIDIsEqualIncludingNil(standardizedURL.port, standardizedRedirectURL.port);
 }
 
 - (BOOL)shouldHandleURL:(NSURL *)URL {
